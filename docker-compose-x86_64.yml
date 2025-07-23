@@ -2,24 +2,24 @@ version: '3'
 services:
     manylinux2014_x86_64_cuda_10.2:
         build: ./docker/manylinux2014_x86_64_cuda_10.2
-        image: sameli/manylinux2014_x86_64_cuda_10.2
+        image: ghcr.io/makslevental/manylinux2014_x86_64_cuda_10.2
 
     manylinux2014_x86_64_cuda_11.8:
         build: ./docker/manylinux2014_x86_64_cuda_11.8
-        image: sameli/manylinux2014_x86_64_cuda_11.8
+        image: ghcr.io/makslevental/manylinux2014_x86_64_cuda_11.8
 
     manylinux2014_x86_64_cuda_12.0:
         build: ./docker/manylinux2014_x86_64_cuda_12.0
-        image: sameli/manylinux2014_x86_64_cuda_12.0
+        image: ghcr.io/makslevental/manylinux2014_x86_64_cuda_12.0
 
     manylinux2014_x86_64_cuda_12.3:
         build: ./docker/manylinux2014_x86_64_cuda_12.3
-        image: sameli/manylinux2014_x86_64_cuda_12.3
+        image: ghcr.io/makslevental/manylinux2014_x86_64_cuda_12.3
 
     manylinux_2_28_x86_64_cuda_12.3:
         build: ./docker/manylinux_2_28_x86_64_cuda_12.3
-        image: sameli/manylinux_2_28_x86_64_cuda_12.3
+        image: ghcr.io/makslevental/manylinux_2_28_x86_64_cuda_12.3
 
     manylinux_2_34_x86_64_cuda_12.8:
         build: ./docker/manylinux_2_34_x86_64_cuda_12.8
-        image: sameli/manylinux_2_34_x86_64_cuda_12.8
+        image: ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8

@@ -15,37 +15,37 @@ X86_64 Architecture
 
   ::
 
-      docker pull sameli/manylinux_2_34_x86_64_cuda_12.8
+      docker pull ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8
 
 * **manylinux_2_28** on **X86_64** arch with CUDA **12.3** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux_2_28_x86_64_cuda_12.3>`__) |deploy-docker-manylinux_2_28_x86_64_cuda_12.3|
 
   ::
 
-      docker pull sameli/manylinux_2_28_x86_64_cuda_12.3
+      docker pull ghcr.io/makslevental/manylinux_2_28_x86_64_cuda_12.3
 
 * **manylinux2014** on **X86_64** arch with CUDA **12.3** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux2014_x86_64_cuda_12.3>`__) |deploy-docker-manylinux2014_x86_64_cuda_12.3|
 
   ::
 
-      docker pull sameli/manylinux2014_x86_64_cuda_12.3
+      docker pull ghcr.io/makslevental/manylinux2014_x86_64_cuda_12.3
 
 * **manylinux2014** on **X86_64** arch with CUDA **12.0** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux2014_x86_64_cuda_12.0>`__) |deploy-docker-manylinux2014_x86_64_cuda_12_0|
 
   ::
 
-      docker pull sameli/manylinux2014_x86_64_cuda_12.0
+      docker pull ghcr.io/makslevental/manylinux2014_x86_64_cuda_12.0
 
 * **manylinux2014** on **X86_64** arch with CUDA **11.8** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux2014_x86_64_cuda_11.8>`__) |deploy-docker-manylinux2014_x86_64_cuda_11_8|
 
   ::
 
-      docker pull sameli/manylinux2014_x86_64_cuda_11.8
+      docker pull ghcr.io/makslevental/manylinux2014_x86_64_cuda_11.8
 
 * **manylinux2014** on **X86_64** arch with CUDA **10.2** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux2014_x86_64_cuda_10.2>`__) |deploy-docker-manylinux2014_x86_64_cuda_10_2|
 
   ::
 
-      docker pull sameli/manylinux2014_x86_64_cuda_10.2
+      docker pull ghcr.io/makslevental/manylinux2014_x86_64_cuda_10.2
 
 
 AARCH64 Architecture
@@ -55,13 +55,13 @@ AARCH64 Architecture
 
   ::
 
-      docker pull sameli/manylinux_2_34_x86_64_cuda_12.9
+      docker pull ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.9
 
 * **manylinux2014** on **AARCH64** arch with CUDA **12.9** (`see on Dockerhub <https://hub.docker.com/r/sameli/manylinux2014_aarch64_cuda_12.9>`__) |deploy-docker-manylinux2014_aarch64_cuda_12_9|
 
   ::
 
-      docker pull sameli/manylinux2014_x86_64_cuda_12.8
+      docker pull ghcr.io/makslevental/manylinux2014_x86_64_cuda_12.8
 
 Base of Images
 ==============
@@ -132,7 +132,7 @@ Run containers in interactive mode by:
 
 ::
 
-    docker run -it sameli/manylinux_2_34_x86_64_cuda_12.8
+    docker run -it ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8
 
 Check CUDA Version
 ==================
@@ -141,7 +141,7 @@ The ``nvcc`` executable is available on the ``PATH``. To check the CUDA version,
 
 ::
 
-    docker run -t sameli/manylinux_2_34_x86_64_cuda_12.8 nvcc --version
+    docker run -t ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8 nvcc --version
     
 The output of the above command is:
 
@@ -185,13 +185,13 @@ To use host's GPU, add  ``--gpus all`` to any of the docker commands given befor
 
 ::
 
-    docker run --gpus all -it sameli/manylinux_2_34_x86_64_cuda_12.8
+    docker run --gpus all -it ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8
 
 To check the host's NVIDIA driver version, CUDA runtime library version, and list of available GPU devices, run ``nvida-smi`` command, such as by:
 
 ::
 
-    docker run --gpus all sameli/manylinux_2_34_x86_64_cuda_12.8 nvidia-smi
+    docker run --gpus all ghcr.io/makslevental/manylinux_2_34_x86_64_cuda_12.8 nvidia-smi
 
 
 Troubleshooting
