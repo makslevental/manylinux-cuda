@@ -2,7 +2,7 @@ version: '3'
 services:
     manylinux2014_aarch64_cuda_12.9:
         build: ./docker/manylinux2014_aarch64_cuda_12.9
-        image: sameli/manylinux2014_aarch64_cuda_12.9
+        image: ghcr.io/makslevental/manylinux2014_aarch64_cuda_12.9
     manylinux_2_34_aarch64_cuda_12.9:
         build: ./docker/manylinux_2_34_aarch64_cuda_12.9
-        image: sameli/manylinux_2_34_aarch64_cuda_12.9
+        image: ghcr.io/makslevental/manylinux_2_34_aarch64_cuda_12.9

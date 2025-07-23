@@ -4,7 +4,7 @@
 
 # -----------------------------------------------------------------------------
 # How to build
-#   $ docker build -t sameli/manylinux_2_28_x86_64_cuda_12.3 -f <This-Filename> .
+#   $ docker build -t ghcr.io/makslevental/manylinux_2_28_x86_64_cuda_12.3 -f <This-Filename> .
 #
 # How to run:
 #   $ docker run -it -v/host_dir:/image_dir --entrypoint /bin/bash \

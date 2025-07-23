@@ -4,7 +4,7 @@
 
 # -----------------------------------------------------------------------------
 # How to build
-#   $ docker build -t sameli/manylinux_2_34_aarch64_cuda_12.9 -f <This-Filename> .
+#   $ docker build -t ghcr.io/makslevental/manylinux_2_34_aarch64_cuda_12.9 -f <This-Filename> .
 #
 # How to run:
 #   $ docker run -it -v/host_dir:/image_dir --entrypoint /bin/bash \
